@@ -51,12 +51,6 @@ To start the server, use the following command:
 uvicorn server:app --reload
 ```
 
-Once the server is running, you can access the API at:
-
-- [Main Endpoint](http://127.0.0.1:8000/)
-- [Interactive Swagger Documentation](http://127.0.0.1:8000/docs)
-- [Alternative API Documentation](http://127.0.0.1:8000/redoc)
-
 ## Usage
 
 Upload a CSV file containing logs to the FastAPI endpoint for classification. Ensure the file has the following columns:
